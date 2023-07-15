@@ -14,7 +14,7 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-contract KToken is IERC20 {
+contract Pochitatoken is IERC20 {
 
     string public constant name = "PochisToken";
     string public constant symbol = "PTTKN";
